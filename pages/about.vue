@@ -25,7 +25,7 @@
             Whether you're an individual managing personal finances or a professional handling business expenses, Expensy simplifies your financial journey.
         </p>
 
-        <Alert message="<a href='/login'>Join</a>  thousands of users who have already taken control of their expenses with Expensy. Start your journey toward financial freedom today!" />
+        <Alert message="Join thousands of users who have already taken control of their expenses with Expensy. Start your journey toward financial freedom today!" />
       </div>
     </div>
   </div>

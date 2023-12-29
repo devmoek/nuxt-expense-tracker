@@ -1,0 +1,15 @@
+{
+  "header": {
+    "title": "Caro",
+    "about": "Sobre",
+    "login": "Iniciar sesión",
+    "logout": "Cerrar sesión"
+  },
+  "about": {
+    "title": "Sobre"
+  },
+  "layouts": {
+    "title": "Expensy: tu amigable rastreador de gastos",
+    "TBD": "Título de la aplicación web"
+  }
+}
