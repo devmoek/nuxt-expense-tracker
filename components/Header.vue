@@ -13,9 +13,12 @@ const logout = async () => {
 
 <template>
   <header class="bg-emerald-700 text-white py-4 px-4">
-    <div class="container mx-auto flex items-center justify-between">
+    <div class="container mx-auto flex items-baseline justify-between">
       <div>
-        <NuxtLink :to="localePath('/')">
+        <NuxtLink
+          :to="localePath('/')"
+          class="hover:text-gray-900 transition duration-300"
+        >
           <h1 class="text-2xl font-bold">
             {{ $t("header.title") }}
           </h1>
@@ -23,14 +26,28 @@ const logout = async () => {
       </div>
 
       <nav class="flex gap-5 items-center">
-        <ul class="flex gap-5 items-center">
+        <ul class="flex md:gap-5 items-center">
           <li>
-            <NuxtLink :to="localePath('/about')">
+            <NuxtLink
+              :to="localePath('/about')"
+              class="hover:text-gray-900 transition duration-300"
+            >
               {{ $t("header.about") }}
             </NuxtLink>
           </li>
+          <li>
+            <NuxtLink
+              :to="localePath('/expense')"
+              class="hover:text-gray-900 hidden md:inline transition duration-300"
+            >
+              {{ $t("header.expense") }}
+            </NuxtLink>
+          </li>
           <li class="border rounded p-2" v-if="!user">
-            <NuxtLink :to="localePath('/login')">
+            <NuxtLink
+              :to="localePath('/login')"
+              class="hover:text-gray-900 transition duration-300"
+            >
               {{ $t("header.login") }}
             </NuxtLink>
           </li>
@@ -39,7 +56,7 @@ const logout = async () => {
         <LocaleForm />
 
         <button
-          class="px-3 py-2 border text-white border-white text-sm font-medium rounded-md text-gray-700 bg-transparent hover:bg-gray-50 hover:text-black focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+          class="px-3 py-2 border text-white border-white text-sm transition duration-300 font-medium rounded-md text-gray-700 bg-transparent hover:bg-gray-50 hover:text-black focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
           v-if="user"
           @click="logout"
         >

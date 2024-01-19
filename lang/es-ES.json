@@ -2,14 +2,67 @@
   "header": {
     "title": "Caro",
     "about": "Sobre",
+    "expense": "Gastos",
     "login": "Iniciar sesión",
     "logout": "Cerrar sesión"
+  },
+  "hero": {
+    "title": "Bienvenido a caro",
+    "description": "Realice un seguimiento de sus ingresos y gastos con facilidad."
+  },
+  "features": {
+    "our": "Nuestras",
+    "features": "Características",
+    "description": "Obtenga más información sobre nuestras funciones y cómo pueden ayudarle a administrar su tiempo."
+  },
+  "feature1": {
+    "title": "Modo oscuro elegante",
+    "description": "Transforma el fondo brillante habitual de la aplicación en un negro intenso o gris oscuro, reduciendo la fatiga visual, especialmente en entornos con poca luz."
+  },
+  "feature2": {
+    "title": "Diseño de respuesta",
+    "description": "Hace que el seguimiento y la gestión financieros sean fácilmente accesibles para los usuarios en movimiento, promoviendo la eficiencia y la satisfacción del usuario."
+  },
+  "feature3": {
+    "title": "Soporte multilingüe",
+    "description": "Permite a los usuarios elegir su idioma preferido, lo que hace que la aplicación sea más accesible para un público más amplio y aumenta la satisfacción del usuario."
   },
   "about": {
     "title": "Sobre"
   },
+  "testimonials": {
+    "title": "Que dicen nuestras clientes"
+  },
+  "testimonial1": {
+    "title": "Como propietario de una pequeña empresa, realizar un seguimiento de los gastos puede resultar abrumador. Expensy ha cambiado las reglas del juego para mí. Su interfaz intuitiva y sus potentes funciones facilitan el seguimiento y la generación de informes de gastos. En particular, me encanta la función de elaboración de presupuestos en tiempo real, que me ayuda a estar al tanto de mis finanzas. Desde que comencé a usar Expensy, he ahorrado innumerables horas en gestión financiera. ¡Muy recomendado para cualquiera que busque simplificar sus procesos financieros!",
+    "name": "Jesica Smith",
+    "position": "CEO"
+  },
+  "testimonial2": {
+    "title": "Como propietario de una pequeña empresa, realizar un seguimiento de los gastos puede resultar abrumador. Expensy ha cambiado las reglas del juego para mí. Su interfaz intuitiva y sus potentes funciones facilitan el seguimiento y la generación de informes de gastos. En particular, me encanta la función de elaboración de presupuestos en tiempo real, que me ayuda a estar al tanto de mis finanzas. Desde que comencé a usar Expensy, he ahorrado innumerables horas en gestión financiera. ¡Muy recomendado para cualquiera que busque simplificar sus procesos financieros!",
+    "name": "John Doe",
+    "position": "Product Designer"
+  },
   "layouts": {
     "title": "Expensy: tu amigable rastreador de gastos",
     "TBD": "Título de la aplicación web"
+  },
+  "footer": {
+    "title": "Caro",
+    "resources": {
+      "title": "Recursos"
+    },
+    "follow_us": {
+      "title": "Síganos"
+    },
+    "legal": {
+      "title": "Legal"
+    },
+    "all_rights_reserved": "Reservados todos los derechos."
+  },
+  "general": {
+    "button": {
+      "getStarted": "Empezar"
+    }
   }
 }

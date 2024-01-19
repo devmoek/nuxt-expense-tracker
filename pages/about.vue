@@ -1,8 +1,7 @@
 <template>
-  <div>
     <div class="min-h-screen flex items-center justify-center">
-      <div class="max-w-3xl p-8 bg-white rounded-md prose">
-        <h1 class="text-3xl font-bold mb-4">
+      <div class="max-w-3xl p-8 rounded-md prose text-gray-900 dark:text-gray-100">
+        <h1 class="text-3xl font-bold mb-4 text-gray-900 dark:text-gray-100">
           {{ $t('about.title') }}
         </h1>
         <p class="text-lg">
@@ -28,6 +27,5 @@
         <Alert message="Join thousands of users who have already taken control of their expenses with Expensy. Start your journey toward financial freedom today!" />
       </div>
     </div>
-  </div>
 </template>
 

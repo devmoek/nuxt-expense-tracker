@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white rounded-lg p-8 shadow-md">
+  <div class="bg-white dark:bg-gray-900 rounded-lg p-8 shadow-md">
     <div class="mb-4">
       <p class="text-lg mb-4">{{ content }}</p>
       <p class="text-gray-600">{{ author }}</p>

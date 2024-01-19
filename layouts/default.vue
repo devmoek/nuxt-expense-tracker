@@ -33,7 +33,7 @@ const title = computed(() =>
           />
         </template>
       </Head>
-      <Body>
+      <Body class="dark:bg-gray-900 bg-gray-100">
         <slot />
       </Body>
     </Html>

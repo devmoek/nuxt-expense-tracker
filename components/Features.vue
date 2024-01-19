@@ -1,15 +1,17 @@
 <template>
-  <section class="bg-white dark:bg-gray-900">
+  <section class="bg-white dark:bg-gray-800">
     <div class="container px-6 py-10 mx-auto">
-      <h1
-        class="text-3xl font-semibold text-gray-800 capitalize lg:text-4xl dark:text-white"
+      <h2
+        class="text-3xl font-semibold text-gray-800 capitalize lg:text-4xl dark:text-gray-100"
       >
-        Our <span class="underline decoration-emerald-500">Features</span>
-      </h1>
+        {{ $t("features.our") }}
+        <span class="underline decoration-emerald-500">
+          {{ $t("features.features") }}
+        </span>
+      </h2>
 
       <p class="mt-4 text-gray-500 xl:mt-6 dark:text-gray-300">
-        Learn more about our features and how they can help you manage your
-        time.
+        {{ $t("features.description") }}
       </p>
 
       <div
@@ -18,7 +20,9 @@
         <div
           class="p-8 space-y-3 border-2 border-emerald-400 dark:border-emerald-300 rounded-xl"
         >
-          <span class="inline-block text-emerald-500 dark:text-emerald-400">
+          <span
+            class="inline-block text-emerald-500 dark:text-emerald-400 hover:animate-ping"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               class="w-8 h-8"
@@ -41,25 +45,23 @@
             </svg>
           </span>
 
-          <h1
+          <h2
             class="text-2xl font-semibold text-gray-700 capitalize dark:text-white"
           >
-            elegant Dark Mode
-          </h1>
+            {{ $t("feature1.title") }}
+          </h2>
 
           <p class="text-gray-500 dark:text-gray-300">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
-            ab nulla quod dignissimos vel non corrupti doloribus voluptatum
-            eveniet
+            {{ $t("feature1.description") }}
           </p>
 
           <a
             href="#"
-            class="inline-flex p-2 text-emerald-500 capitalize transition-colors duration-200 transform bg-emerald-100 rounded-full dark:bg-emerald-500 dark:text-white hover:underline hover:text-emerald-600 dark:hover:text-black"
+            class="inline-flex p-2 text-emerald-500 capitalize transition-colors duration-200 transform bg-emerald-100 rounded-full dark:bg-emerald-500 dark:text-white hover:underline hover:text-emerald-600 dark:hover:text-gray-900"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="w-6 h-6"
+              class="w-6 h-6 bounce-left-right"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -77,7 +79,9 @@
         <div
           class="p-8 space-y-3 border-2 border-emerald-400 dark:border-emerald-300 rounded-xl"
         >
-          <span class="inline-block text-emerald-500 dark:text-emerald-400">
+          <span
+            class="inline-block text-emerald-500 dark:text-emerald-400 hover:animate-ping"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               class="w-8 h-8"
@@ -94,25 +98,23 @@
             </svg>
           </span>
 
-          <h1
+          <h2
             class="text-2xl font-semibold text-gray-700 capitalize dark:text-white"
           >
-            Easy to customiztions
-          </h1>
+            {{ $t("feature2.title") }}
+          </h2>
 
           <p class="text-gray-500 dark:text-gray-300">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
-            ab nulla quod dignissimos vel non corrupti doloribus voluptatum
-            eveniet
+            {{ $t("feature2.description") }}
           </p>
 
           <a
             href="#"
-            class="inline-flex p-2 text-emerald-500 capitalize transition-colors duration-200 transform bg-emerald-100 rounded-full dark:bg-emerald-500 dark:text-white hover:underline hover:text-emerald-600 dark:hover:text-black"
+            class="inline-flex p-2 text-emerald-500 capitalize transition-colors duration-200 transform bg-emerald-100 rounded-full dark:bg-emerald-500 dark:text-white hover:underline hover:text-emerald-600 dark:hover:text-gray-900"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="w-6 h-6"
+              class="w-6 h-6 bounce-left-right"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -130,7 +132,9 @@
         <div
           class="p-8 space-y-3 border-2 border-emerald-400 dark:border-emerald-300 rounded-xl"
         >
-          <span class="inline-block text-emerald-500 dark:text-emerald-400">
+          <span
+            class="inline-block text-emerald-500 dark:text-emerald-400 hover:animate-ping"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               class="w-8 h-8"
@@ -147,25 +151,23 @@
             </svg>
           </span>
 
-          <h1
+          <h2
             class="text-2xl font-semibold text-gray-700 capitalize dark:text-white"
           >
-            Simple & clean designs
-          </h1>
+            {{ $t("feature3.title") }}
+          </h2>
 
           <p class="text-gray-500 dark:text-gray-300">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
-            ab nulla quod dignissimos vel non corrupti doloribus voluptatum
-            eveniet
+            {{ $t("feature3.description") }}
           </p>
 
           <a
             href="#"
-            class="inline-flex p-2 text-emerald-500 capitalize transition-colors duration-200 transform bg-emerald-100 rounded-full dark:bg-emerald-500 dark:text-white hover:underline hover:text-emerald-600 dark:hover:text-black"
+            class="inline-flex p-2 text-emerald-500 capitalize transition-colors duration-200 transform bg-emerald-100 rounded-full dark:bg-emerald-500 dark:text-white hover:underline hover:text-emerald-600 dark:hover:text-gray-900"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="w-6 h-6"
+              class="w-6 h-6 bounce-left-right"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -182,35 +184,4 @@
       </div>
     </div>
   </section>
-
-  <div
-    class="fixed inset-x-0 lg:inset-x-auto bottom-6 lg:right-8 xl:right-10 xl:bottom-8"
-  >
-    <div class="px-6 lg:px-0">
-      <div class="mr-3">
-        <div class="flex flex-wrap items-center justify-end">
-          <span class="sr-only">Sponsor the author</span>
-          <a
-            target="_blank"
-            href="https://www.paypal.com/paypalme/majersas"
-            class="flex items-center flex-1 w-0"
-          >
-            <span class="flex p-2 bg-emerald-800 rounded-lg">
-              <svg
-                class="h-6 w-6 text-white"
-                viewBox="0 0 24 24"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M5.12954 3.00772C5.48563 2.38457 6.14831 2 6.86603 2H17.134C17.8517 2 18.5144 2.38457 18.8704 3.00772L20.0133 5.00772C20.6612 6.14163 20.0618 7.51107 18.9235 7.89532C18.9276 7.97661 18.9269 8.0591 18.9209 8.14249L18.0638 20.1425C17.989 21.1891 17.1181 22 16.0689 22H7.9311C6.88182 22 6.01094 21.1891 5.93618 20.1425L5.07904 8.14249C5.07308 8.0591 5.07231 7.97661 5.07645 7.89531C3.93813 7.51105 3.33874 6.14162 3.98668 5.00772L5.12954 3.00772ZM7.07396 8L7.28824 11H16.7117L16.926 8H7.07396ZM7.71681 17L7.9311 20H16.0689L16.2831 17H7.71681ZM18.2768 6L17.134 4L6.86603 4L5.72317 6H18.2768Z"
-                  fill="currentColor"
-                ></path>
-              </svg>
-            </span>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
 </template>

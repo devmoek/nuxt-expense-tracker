@@ -2,13 +2,66 @@
   "header": {
     "title": "Expensy",
     "about": "About",
+    "expense": "Expense",
     "login": "Login",
     "logout": "Logout"
+  },
+  "hero": {
+    "title": "Welcome to Expensy",
+    "description": "Track your income and expense with ease."
+  },
+  "features": {
+    "our": "Our",
+    "features": "Features",
+    "description": "Learn more about our features and how they can help you manage your time."
+  },
+  "feature1": {
+    "title": "Elegant Dark Mode",
+    "description": "It transforms the usual bright background of the app into a deep, rich black or dark grey, reducing eye strain, especially in low-light environments."
+  },
+  "feature2": {
+    "title": "Responsive Design",
+    "description": "It makes financial tracking and management effortlessly accessible for users on-the-go, promoting efficiency and user satisfaction."
+  },
+  "feature3": {
+    "title": "Multi-language Support",
+    "description": "It allows users to choose their preferred language, making the app more accessible to a wider audience and increasing user satisfaction."
+  },
+  "testimonials": {
+    "title": "What's our customers say"
+  },
+  "testimonial1": {
+    "title": "As a small business owner, keeping track of expenses can be daunting. Expensy has been a game-changer for me. Its intuitive interface and powerful features make expense tracking and reporting a breeze. I particularly love the real-time budgeting feature, which helps me stay on top of my finances. Since I started using Expensy, I've saved countless hours on financial management. Highly recommended for anyone looking to simplify their financial processes!",
+    "name": "Jessica Smith",
+    "position": "CEO"
+  },
+  "testimonial2": {
+    "title": "I've tried several expense tracking tools, but Expensy stands out for its user-friendly design and robust functionality. The automatic categorization of expenses saves me so much time, and the insights I get from the analytics dashboard are invaluable. It's not just a tool; it's like having a personal financial assistant. Expensy has helped me get a clear picture of my spending patterns, allowing me to make smarter financial decisions. It's an essential tool for personal finance management.",
+    "name": "John Doe",
+    "position": "Product Designer"
   },
   "about": {
     "title": "About"
   },
   "layouts": {
     "title": "Expensy - Your friendly expense tracker"
+  },
+  "footer": {
+    "title": "Expensy",
+    "resources": {
+      "title": "Resources"
+    },
+    "follow_us": {
+      "title": "Follow us"
+    },
+    "legal": {
+      "title": "Legal"
+    },
+    "all_rights_reserved": "All rights reserved."
+  },
+  "general": {
+    "button": {
+      "getStarted": "Get Started"
+    }
   }
 }
