@@ -80,4 +80,8 @@ export default defineNuxtConfig({
       secure: true,
     },
   },
+  runtimeConfig: {
+    supabaseUrl: "https://fijshnxbabxepyxdbpnw.supabase.co",
+    supabaseKey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZpanNobnhiYWJ4ZXB5eGRicG53Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDM4NTMxMTcsImV4cCI6MjAxOTQyOTExN30.gd2v8jR_W6QuvCh6eNmXB807LNTpaTAgc0xsMTF7ilQ",
+  },
 });
