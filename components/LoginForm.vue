@@ -6,7 +6,7 @@ const signInWithOAuth = async () => {
   const { error } = await supabase.auth.signInWithOAuth({
     provider: "github",
     options: {
-      redirectTo: "http://localhost:3000/confirm",
+      redirectTo: "https://nuxt-expense-tracker-cycvintm3-moek.vercel.app/confirm",
     },
   });
   if (error) console.log(error);
