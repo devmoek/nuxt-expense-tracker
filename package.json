@@ -16,7 +16,7 @@
     "@nuxtjs/supabase": "^1.1.5",
     "@nuxtjs/tailwindcss": "^6.10.1",
     "@tailwindcss/typography": "^0.5.10",
-    "nuxt": "^3.8.2",
+    "nuxt": "^3.11.1",
     "nuxt-simple-sitemap": "^4.3.0",
     "vue": "^3.3.10",
     "vue-router": "^4.2.5"
