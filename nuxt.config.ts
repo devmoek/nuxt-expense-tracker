@@ -35,7 +35,7 @@ export default defineNuxtConfig({
     storageKey: "nuxt-color-mode",
   },
   i18n: {
-    baseUrl: "https://expensy.vercel.app",
+    baseUrl: "https://nuxt-expense-tracker.vercel.app/",
     defaultLocale: "en",
     langDir: "lang",
     detectBrowserLanguage: {
@@ -81,7 +81,8 @@ export default defineNuxtConfig({
     },
   },
   runtimeConfig: {
-    supabaseUrl: "https://fijshnxbabxepyxdbpnw.supabase.co",
-    supabaseKey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZpanNobnhiYWJ4ZXB5eGRicG53Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDM4NTMxMTcsImV4cCI6MjAxOTQyOTExN30.gd2v8jR_W6QuvCh6eNmXB807LNTpaTAgc0xsMTF7ilQ",
+    supabaseUrl: "https://lsbhyklisolyvqpblpih.supabase.co",
+    supabaseKey:
+      "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImxzYmh5a2xpc29seXZxcGJscGloIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MTIyNTQxMDEsImV4cCI6MjAyNzgzMDEwMX0.9vWzoaJ3Vh2v2LxrxMBXJrx2HsmR9notXMv-vchB884",
   },
 });

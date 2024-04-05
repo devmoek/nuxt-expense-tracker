@@ -1,5 +1,4 @@
 <script setup>
-
 const supabase = useSupabaseClient();
 
 const signInWithOAuth = async () => {
